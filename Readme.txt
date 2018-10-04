@@ -11,4 +11,8 @@ csrf_assignment_part2 = Double Submit Cookies Pattern
 7.enter some values and submit it.
 8.if the process is successful it will print a success message,if not it will print failed message.
 
+
+for more understanding visit my blog "https://nidarshanavikz.blogspot.com/2018/10/cross-site-request-forgery.html"
+
+
 Thank you!
