@@ -29,7 +29,7 @@ router.post("/tokenValidation",(req,res)=> {
     var sid = req.cookies.sesion_id;
     var token = req.body.CSRFtoken;
     var Ctoken = req.cookies.theToken;
-    if (sid == sesion_id &&  token == theToken){
+    if (sid == sesion_id &&  token == Ctoken){
         res.redirect('/app/Form?failed=false');
     }
     else{
